@@ -1,20 +1,159 @@
-.navbar .navbar-toggle{
-    cursor: pointer;
+/* Responsive Styles */
+.menu-icon {
+    font-size: 40px;
+    align-items: center;
     display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 30px;
 }
 
-.navbar-toggle .bar{
-    width: 25px;
-    height: 3px;
-    margin: 2px 0;
-    transition: 0.4s;
-    background-color: #000;
-}
-
-@media screen and (max-width: 768px) {
-    .nav-mobile{
-        display: none;
-        flex-direction: ;
+/* General Mobile Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
     }
-    
+
+    .navbar {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        transition: 2s;
+    }
+
+    .navbar.active {
+    display: flex; /* Shows the navbar when active */
 }
+
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .hero-container img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+
+    .hero-information {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .information-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-information img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+
+    .blog-post-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .blog-image img {
+        max-width: 100%;
+    }
+
+    .boarding-house {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boarding-card {
+        width: 100%;
+        max-width: 80%;
+        gap: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        width: 70%;
+    }
+
+    .hero-container {
+        padding: 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5em;
+    }
+
+    .hero-information {
+        padding: 30px;
+    }
+
+    .information-content h3 {
+        font-size: 2em;
+    }
+
+    .boarding-card {
+        width: 80%;
+        height: 80%;
+    }
+
+    .blog-post-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        padding: 30px 20px;
+    }
+}
+
+
+
+/* Menu HTML */
+
