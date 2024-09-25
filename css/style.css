@@ -344,14 +344,18 @@ nav {
     align-items: center;
 }
 
+
+
+/* Menu Html */
 .search{
     display: flex;
     justify-content: center;
-    padding:50px;
+    padding: 50px;
 }
 
 .search input{
-    width: 50%;
+    width: 60%;
+    align-items: center;
     padding: 1em ;
     border-radius: 10px;
 }
