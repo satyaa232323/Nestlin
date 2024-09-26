@@ -24,35 +24,54 @@ body {
   background-color: #fff;
 }
 
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+p a {
+  color: #49c4b1;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+
 /* Responsive Layout */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
-    width: 90%;
-    max-width: 500px;
+      flex-direction: column;
+      width: 90%;
+      max-width: 500px;
   }
 
   .logo-section {
-    padding: 10px;
+      padding: 10px;
   }
 
   .form-section {
-    padding: 20px;
+      padding: 20px;
   }
 }
 
 @media (max-width: 480px) {
   .form-section {
-    padding: 15px;
+      padding: 15px;
   }
 
   input, button {
-    font-size: 14px;
-    padding: 8px;
+      font-size: 14px;
+      padding: 8px;
   }
 
   h2 {
-    font-size: 1.5em;
+      font-size: 1.5em;
   }
 }
 
@@ -78,6 +97,7 @@ body {
 .form-section h2 {
   color: #49c4b1;
   margin-bottom: 20px;
+  text-align: center; /* Centering the title */
 }
 
 form {
@@ -110,4 +130,8 @@ button {
 
 button:hover {
   background-color: #3aa894;
+}
+
+p {
+  text-align: center; /* Centering the paragraph */
 }
