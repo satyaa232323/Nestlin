@@ -375,6 +375,9 @@ nav {
 
 /* Login */
 
+
+
+
 .register {
     display: flex;
     height: 100vh;
@@ -420,5 +423,59 @@ nav {
     background-color: #0056b3;
 }
 
-/* Responsive */
 
+
+
+/* About Sesction */
+.about-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+.about-section h1 {
+    font-size: 2.5rem;
+    color: #229799;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.about-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center; /* Pastikan semua box berada di tengah */
+}
+
+.box-img {
+    text-align: center;
+    border: 1px solid #000; /* Border tetap hitam */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Ukuran tetap sama */
+    height: 300px; /* Tentukan tinggi yang sama */
+    justify-content: center; /* Agar isi berada di tengah secara vertikal */
+    align-items: center;
+}
+
+.box-img img {
+    width: 100px; /* Ukuran gambar */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.box-img h3 {
+    margin: 15px 0;
+    font-size: 1.8em;
+}
+
+.box-img p {
+    font-size: 1.2em;
+    color: #555;
+}
