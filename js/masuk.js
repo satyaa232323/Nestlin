@@ -8,7 +8,7 @@ btnSubmit.addEventListener("click", (e) => {
   // Verifikasi login dengan username dan password yang benar
   if (txUsername.value === "admin" && txPassword.value === "admin") {
     alert("Berhasil Login");
-    window.location.href = "index.html"; // Mengarahkan ke halaman index.html setelah login berhasil
+    window.location.href = "landingpage.html"; // Mengarahkan ke halaman index.html setelah login berhasil
   } else {
     alert("Username atau Password Salah");
   }
