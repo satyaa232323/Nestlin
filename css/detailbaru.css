@@ -1,0 +1,128 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00c4b4;
+}
+
+header .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Kost Title and Price */
+.kost-title {
+    text-align: center;
+    font-size: 24px;
+    color: #00c4b4;
+    margin-top: 20px;
+}
+
+.kost-price {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    color: #000;
+}
+
+/* Kost Content Styling */
+.kost-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.kost-images {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    gap: 20px; /* Tambahkan jarak antara kolom gambar utama dan gambar kecil */
+}
+
+.main-img {
+    width: 65%; /* Gambar utama mengambil 65% dari lebar */
+    border-radius: 5px;
+}
+
+.kost-info {
+    width: 100%;
+    max-width: 600px; /* Batas lebar maksimal */
+    margin: 20px auto; /* Pusatkan secara horizontal */
+    padding: 20px; /* Berikan padding agar teks tidak mepet */
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Tambahkan bayangan */
+    border-radius: 10px; /* Beri sudut yang membulat */
+    text-align: left; /* Teks rata kiri */
+}
+
+.kost-info h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.kost-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Small Images Styling */
+.small-images {
+    display: flex;
+    flex-direction: column; /* Membuat gambar kecil vertikal */
+    gap: 10px;
+    width: 35%; /* Gambar kecil mengambil 35% dari lebar */
+}
+
+.small-images img {
+width: 100%; /* Setel gambar kecil untuk mengambil seluruh lebar dari kontainer */
+height: auto;
+border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e3e3e3;
+    text-align: center;
+}
+
+footer .footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer .footer-social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}

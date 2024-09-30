@@ -10,3 +10,10 @@ const btnLogin = document.querySelector("#btLogin");
 btnLogin.addEventListener("click", () => {
   window.location.href = "login.html";
 });
+
+
+const detail = document.querySelector('#Details');
+
+function details (){
+  detail
+}
