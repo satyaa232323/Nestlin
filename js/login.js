@@ -14,6 +14,6 @@ btnLogin.addEventListener("click", () => {
 
 const detail = document.querySelector('#Details');
 
-function details (){
-  detail
-}
+detail.addEventListener("click", () => {
+  window.location.href = "detail1.html";
+}); 
